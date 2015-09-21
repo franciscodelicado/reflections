@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+The output of an application as "diff" shows you the numbers of lines,
+and the content of them, of two compared files when differences
+exits. So you can see the reason of the bug easily.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having a history of the changes introduced in the code along the time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The advantage is that you haven't got too small commit because you can
+select the instant of time when you commit the changes, p.e. when a
+bug is fixed in a function. In the other hand, the disadvantage is
+that the commit could be too big, because it contents a lot of changes
+in the code, not all related.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because systems like Git were designed to work with big software
+project, where a lot of files are related between them, and systems
+like Google Docs were designed to work with singular files. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command "git log" returns a resume of all commits doing, showing
+ID of the commit, name of file changed, author, date and the text
+associated to the commit which must be a description of it.
+
+Using IDs returned by the command "git log", in the command "git diff"
+you can see the differences between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Using version control you can revert any change using a "checkout"
+command. So if you do a commit when you do some changes in part of
+your code, you always could revert them using a "checkout".
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want use Git in a software proyect to control the versions and
+changes on it.
